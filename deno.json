@@ -1,0 +1,8 @@
+{
+    "tasks": {
+        "start": "deno run -A --watch=public/,routes/,db/,services/,controllers/ mod.ts",
+        "prod": "deno run -A mod.ts"
+    },
+
+    "importMap": "./import_map.json"
+}
